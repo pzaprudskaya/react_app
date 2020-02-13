@@ -1,0 +1,21 @@
+@import '../../../src/styles/styles';
+
+.select {
+  display: flex;
+  label {
+    display: flex;
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .MuiInput-underline:before {
+    border: none !important;
+  }
+  .MuiSelect-select.MuiSelect-select {
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid $main-color;
+    width: 250px;
+    background: white;
+  }
+}

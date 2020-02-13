@@ -1,0 +1,14 @@
+@import '../../../src/styles/styles';
+.header {
+  margin: 0 20px;
+  .cardHeader {
+    color: $main-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icon {
+      cursor: pointer;
+    }
+  }
+}
+

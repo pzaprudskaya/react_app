@@ -1,0 +1,8 @@
+@import '../../../src/styles/styles';
+.block {
+  border: 1px solid $main-color;
+  background-color: $general-color;
+  margin: 20px;
+  border-radius: 4px;
+  width: 500px;
+}

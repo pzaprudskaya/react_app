@@ -1,0 +1,5 @@
+@import '../../../src/styles/styles';
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: $main-color !important;
+}
