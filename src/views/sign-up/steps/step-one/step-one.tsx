@@ -23,6 +23,7 @@ class StepOne extends React.Component<any, any> {
     }, 1000);
 
   public render() {
+      console.log(this.props);
       return (
             <div className={'userInfo'}>
                 <CardHeader title={'Registration'} subtitle={'User information'}/>
